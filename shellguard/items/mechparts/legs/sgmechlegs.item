@@ -1,0 +1,15 @@
+{
+  "itemName" : "sgmechlegs",
+  "price" : 4480,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechlegs",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "sgmechlegs.png",
+  "description" : "Сверхмощные ноги меха, которые балансируют между скоростью и мощностью двигателя.",
+  "shortdescription" : "SG Mech Legs",
+  "itemTags" : [ ],
+
+  "mechPart" : ["legs", "sgmechlegs"]
+}

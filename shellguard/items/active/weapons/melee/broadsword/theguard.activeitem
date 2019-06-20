@@ -1,0 +1,44 @@
+{
+  "itemName" : "theguard",
+  "price" : 3000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Weathered sword with a sea-shell shaped pommel, wrapped in red ribbon.",
+  "shortdescription" : "The Guard",
+  //"tooltipKind" : "sword",
+  "category" : "uniqueweapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "theguard.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/sgheavyswordcomboanimation.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "theguard.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "sgheavyswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.25,
+    "baseDps" : 12.5,
+    "damageConfig" : {
+      "damageSourceKind" : "hammer"
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+  "altAbility" : {
+    "damageConfig" : {
+      "damageSourceKind" : "hammer"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,44 @@
+{
+  "metadata" : {
+    "name" : "surfaceshellguarddungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "surfacebunker", "surfacetower", "surfacepadandbunker", "largeoilsilos" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "surfacebunker",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "surfacebunker.json" ]
+    },
+    {
+      "name" : "surfacetower",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "surfacetower.json" ]
+    },
+    {
+      "name" : "surfacepadandbunker",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "surfacepadandbunker.json" ]
+    },
+    {
+      "name" : "largeoilsilos",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "largeoilsilos.json" ]
+    }
+  ]
+}

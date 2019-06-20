@@ -1,0 +1,53 @@
+{
+  "objectName" : "sghubarenateleporter",
+  "colonyTags" : ["outpost"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+
+  "description" : "Дает тебе возможность перезапустить аренный бой!",
+  "shortdescription" : "Аренный телепорт",
+  "printable" : false,
+
+  "apexDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+  "avianDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+  "floranDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+  "glitchDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+  "humanDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+  "hylotlDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+  "novakidDescription" : "Я могу использовать это, чтобы переиграть прошлые битвы.",
+
+  "category" : "teleporter",
+  "lightColor" : [99, 132, 153],
+  "lightPosition" : [0, 5],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/sgarenateleport.config",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "sghubarenateleporter.png:<color>", "fullbright" : true }, { "image" : "sghubarenateleporterlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [
+        [-3, 7], [-2, 7], [-1, 7], [0, 7], [1, 7],
+        [-3, 6], [-2, 6], [-1, 6], [0, 6], [1, 6],
+        [-2, 5], [-1, 5], [0, 5], [1, 5],
+        [-2, 4], [-1, 4], [0, 4], [1, 4],
+        [-2, 3], [-1, 3], [0, 3], [1, 3],
+        [-2, 2], [-1, 2], [0, 2], [1, 2],
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0] ]
+    }
+  ],
+  
+  "teleporterFootPosition" : [-1, 1]
+}

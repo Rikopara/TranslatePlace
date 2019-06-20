@@ -1,0 +1,15 @@
+{
+  "itemName" : "sgmechrocket",
+  "price" : 7000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "sgmechrocket.png",
+  "description" : "Стреляет большими ракетами с большой скоростью с малой блокировкой.",
+  "shortdescription" : "SG Swarmer MK2",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "sgmechrocket"]
+}

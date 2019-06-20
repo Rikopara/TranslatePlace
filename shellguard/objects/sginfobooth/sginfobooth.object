@@ -1,0 +1,77 @@
+{
+  "objectName" : "sginfobooth",
+  "colonyTags" : ["protectorate", "commerce"],
+  "rarity" : "Common",
+  "description" : "Хороший источник информации.",
+  "shortdescription" : "Информационная стойка",
+  "race" : "protectorate",
+  "printable" : false,
+  "lightColor" : [46, 66, 77],
+ 
+  "apexDescription" : "Полезная информационная стойка. Работнику, кажетя, скучно.",
+  "avianDescription" : "Полезная информационная стойка. Работнику, кажетя, скучно.",
+  "floranDescription" : "Полезная информационная стойка. Работнику, кажетя, ссскучно.",
+  "glitchDescription" : "Благодарно. Полезная информационная стойка. Работнику, кажетя, скучно.",
+  "humanDescription" : "Полезная информационная стойка. Работнику, кажетя, скучно.",
+  "hylotlDescription" : "Полезная информационная стойка. Работнику, кажетя, скучно.",
+  "novakidDescription" : "Полезная информационная стойка. Работнику, кажетя, скучно.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "sginfobooth.png:idle", "fullbright" : true }, { "image" : "sginfoboothlit.png:idle" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 3.2,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [2, 2], [3, 2], [4, 2],
+        [2, 3], [3, 3], [4, 3]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "sginfobooth.png:idle", "fullbright" : true }, { "image" : "sginfoboothlit.png:idle" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 3.2,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [1, 2], [2, 2], [3, 2],
+        [1, 3], [2, 3], [3, 3]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/hubbub.ogg",
+
+  "animation" : "sginfobooth.animation",
+  "animationPosition" : [0, 0],
+  "animationParts" : {
+    "booth" : "sginfoboothlit.png",
+    "sign" : "sginfobooth.png"
+  },
+  "forceFinishAnimationsInInit" : false,
+
+  "scripts" : ["sginfobooth.lua"],
+  "scriptDelta" : 10,
+
+  "detectArea" : [ [-8, 0], [14, 6] ],
+
+  "mouthPosition" : [-1.25, -3],
+  "chatOptions" : [
+    "Добро пожаловать на один из наших маленьких Аванпостов!",
+    "Впереди вы можете найти наши публичные магазины, где вы можете купить отличное снаряжение!",
+    "Немного дальше, вы можете найти наши зоны тестирования оружия!",
+    "Если вы что-то умеете,то много людей вокруг найдут работу для вас.",
+    "Когда вы проходите миссию, вы можете переиграть ее, войдя в портал сзади."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "sgshippingcontainer",
+  "colonyTags" : ["hylotl","hylotloceancity","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "Очень большой доставочный контейнер.",
+  "shortdescription" : "Доставочный контейнер ШеллГвард",
+  "race" : "hylotl",
+  "price" : 200,
+
+  "health" : 5,
+
+  "apexDescription" : "Это огромный ящик для доставки большого груза",
+  "avianDescription" : "Я думаю это используют для доставки большого груза.",
+  "floranDescription" : "Возможно, внутри есссть еда.",
+  "glitchDescription" : "Серьезно. Что складывают внутрь этого ящика?",
+  "humanDescription" : "Это Реально большой контейнер для доставки.",
+  "hylotlDescription" : "Довольно большой контейнер для перевозки больших грузов.",
+  "novakidDescription" : "Большой контейнер для перевозки грузов.",
+
+  "inventoryIcon" : "sgshippingcontainericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sgshippingcontainer.png:<color>",
+      "imagePosition" : [-56, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/sgshippingcontainer_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/sgshippingcontainer_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

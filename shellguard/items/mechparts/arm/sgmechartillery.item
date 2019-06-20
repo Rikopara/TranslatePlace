@@ -1,0 +1,15 @@
+{
+  "itemName" : "sgmechartillery",
+  "price" : 9000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "sgmechartillery.png",
+  "description" : "Большая пушка с сильными разрушительными свойствами. Используется для дольней бомбардировки.",
+  "shortdescription" : "SG Артиллерийная орудие.",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "sgmechartillery"]
+}

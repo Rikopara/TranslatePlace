@@ -1,0 +1,80 @@
+{
+  "objectName" : "sgdroidpodspawner",
+  "colonyTags" : ["avian","aviantemple","evil"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Огненная ловушка, предназначенная для отпугивания захватчиков.",
+  "shortdescription" : "Авианская огненная ловушка",
+  "race" : "avian",
+
+  "apexDescription" : "Огненная ловушка. Определенно стоит избегать.",
+  "avianDescription" : "Ауч! Огонь и перья лучше не сочетать!",
+  "floranDescription" : "Огненная ловушка - злейший враг Флорана!",
+  "glitchDescription" : "Наблюдательно. Это просто маленькая огненная ловушка, ничего, что нельзя преодолеть.",
+  "humanDescription" : "Верная, надежная ловушка пламени.",
+  "hylotlDescription" : "Быстрый воин не боится пламени.",
+  "novakidDescription" : "Простой, но смертоносный. Мой любимый сорт.",
+
+  "category" : "trap",
+  "price" : 200,
+
+  "inventoryIcon" : "/assetmissing.png",
+  "orientations" : [
+    {
+      "image" : "/assetmissing.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 0],
+
+      "metaBoundBox" : [-4, -4, 4, 4],
+      "interactiveBoundBox" : [-1, -1, 1, 1],
+      
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "",
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 86400, // rate of fire
+  "fireTimeVariance" : 0, // variation in rate of fire
+  "projectile" : "sginvisibleprojectile", // name of projectile (required)
+  "projectileConfig" : {
+    "power" : 20,
+    "speed" : 80,
+    "bounces" : 0,
+    "timeToLive" : 2,
+    "piercing" : true,
+    "damageType" : "NoDamage",
+    "actionOnReap" : [
+      {
+      "action" : "projectile",
+      "offset" : [0, 0],
+      "type" : "sgdroiddroppod",
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 0
+      }
+    ]
+  },
+  
+  "health" : 5
+}

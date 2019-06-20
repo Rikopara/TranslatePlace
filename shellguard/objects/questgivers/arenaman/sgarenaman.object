@@ -1,0 +1,41 @@
+{
+  "objectName" : "sgarenaman",
+  "colonyTags" : ["valuable","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Похоже, он чем-то взволнован.",
+  "avianDescription" : "Похоже, он чем-то взволнован.",
+  "floranDescription" : "Похоже, он чем-то взззволнован.",
+  "glitchDescription" : "Удивленно. Похоже, он чем-то взволнован.",
+  "humanDescription" : "Похоже, он чем-то взволнован.",
+  "hylotlDescription" : "Похоже, он чем-то взволнован.",
+  "novakidDescription" : "Похоже, он чем-то взволнован.",
+
+  "description" : "Как вы помещаете целого человека в свой инвентарь?",
+  "shortdescription" : "Фан арены",
+  "race" : "human",
+  
+  "offeredQuests" : [
+    "sgarenaquest1", "sgarenaquest2", "sgarenaquest3", "sgarenaquest4"
+  ],
+  "turnInQuests" : [
+    "sgarenaquest1", "sgarenaquest2", "sgarenaquest3", "sgarenaquest4"
+  ],
+  "uniqueId" : "Arenaman",
+
+  "inventoryIcon" : "sgarenamanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sgarenaman.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

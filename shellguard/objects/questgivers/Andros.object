@@ -1,0 +1,70 @@
+{
+  "objectName" : "Andros",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "Commander Андрос Галванек",
+  "shortdescription" : " Коммандир Андрес Галванек",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Это коммандир Андрес Галванек.",
+  "avianDescription" : "Это коммандир Андрес Галванек.",
+  "floranDescription" : "Это коммандир Андрессс Галванек.",
+  "glitchDescription" : "Объективно. Это коммандир Андрес Галванек.",
+  "humanDescription" : "Это коммандир Андрес Галванек.",
+  "hylotlDescription" : "Это коммандир Андрес Галванек.",
+  "novakidDescription" : "Это коммандир Андрес Галванек.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Commander Andros Galvanek",
+        "subtitle" : "Hire Shellguard Mercenaries!",
+        "icon" : {
+          "file" : "/interface/bounty/Androsicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "beakeasy" ]
+  },
+
+  "inventoryIcon" : "Androsicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Andros.png:<color>.<frame>",
+      "imagePosition" : [-48, 0],
+      "frames" : 1,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "offeredQuests" : [
+    "sgmercmission1", "sgmercmission2", "shellufoquest", "sgmercmission3", "sgsurvivormission", "sgcolonyattack1"
+  ],
+  "turnInQuests" : [
+    "sgmercmission1", "sgmercmission2", "shellufoquest", "sgmercmission3", "sgsurvivormission", "sgcolonyattack1"
+  ],
+  
+  "uniqueId" : "Andros",
+  
+  "scripts" : [
+    "/objects/questgivers/Andros.lua"
+  ],
+  "scriptDelta" : 600,
+
+  "spawner" : {
+    "species" : "human",
+    "typeName" : "crewmembershellguardmerc"
+  }
+}

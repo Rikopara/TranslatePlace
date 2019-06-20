@@ -1,0 +1,15 @@
+{
+  "itemName" : "sgmechgiantlaser",
+  "price" : 4000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "sgmechgiantlaser.png",
+  "description" : "Стреляет большими ракетами с большой скоростью.",
+  "shortdescription" : "SG Swarmer MK2",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "sgmechgiantlaser"]
+}

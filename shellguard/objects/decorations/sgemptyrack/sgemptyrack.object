@@ -1,0 +1,33 @@
+{
+  "objectName" : "sgemptyrack",
+  "colonyTags" : ["valuable","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Очень прочный.",
+  "avianDescription" : "Очень прочный.",
+  "floranDescription" : "Очень прочный.",
+  "glitchDescription" : "Очень прочный.",
+  "humanDescription" : "Очень прочный.",
+  "hylotlDescription" : "Очень прочный.",
+  "novakidDescription" : "Очень прочный.",
+
+  "description" : "Пустой Настенный стеллаж.",
+  "shortdescription" : "Пустой стеллаж.",
+  "race" : "human",
+
+  "inventoryIcon" : "sgemptyrack.png",
+  "orientations" : [
+    {
+      "dualImage" : "sgemptyrack.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

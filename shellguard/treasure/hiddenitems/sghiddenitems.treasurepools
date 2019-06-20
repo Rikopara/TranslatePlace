@@ -1,0 +1,59 @@
+{
+  "sghubbackpack" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "sgbackpack", 1]}
+      ]
+    }]
+  ],
+  "sghubmedichelmet" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "sgmedichelmet", 1]}
+      ]
+    }]
+  ],
+  "sghubcodex1" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "sgsurvivor1-codex", 1]}
+      ]
+    }]
+  ],
+  "sghubcodex2" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "sgsurvivor2-codex", 1]}
+      ]
+    }]
+  ],
+  "sgufoclaw" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.20, "item" : "shellguardclawboss"}
+      ]
+    }]
+  ],
+  "sgsurvivorstaff" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.20, "item" : "sgbossspear"}
+      ]
+    }]
+  ],
+  "sgmechclownhorntreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.20, "item" : "sgmechhornclown"}
+      ]
+    }]
+  ],
+  "sghublockjaw" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "traininglockjaw", 1]},
+        {"item" : [ "traininglockjaw", 1]}
+      ]
+    }]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "sgriflerack",
+  "colonyTags" : ["valuable","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+  "avianDescription" : "Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+  "floranDescription" : "Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+  "glitchDescription" : "Заинтриговано. Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+  "humanDescription" : "Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+  "hylotlDescription" : "Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+  "novakidDescription" : "Выглядит неплохо, но я бы не хотел упасть на эти острые концы.",
+
+  "description" : "Стеллаж с двумя прикрепленными ружьями Гвардейцев.",
+  "shortdescription" : "Оружейный стеллаж Гвардейцев",
+  "race" : "human",
+
+  "inventoryIcon" : "sgriflerack.png",
+  "orientations" : [
+    {
+      "dualImage" : "sgriflerack.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

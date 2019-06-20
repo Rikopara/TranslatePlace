@@ -1,0 +1,33 @@
+{
+  "objectName" : "sglauncherrack",
+  "colonyTags" : ["valuable","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Очень прочный.",
+  "avianDescription" : "Очень прочный.",
+  "floranDescription" : "Очень прочный.",
+  "glitchDescription" : "Очень прочный.",
+  "humanDescription" : "Очень прочный.",
+  "hylotlDescription" : "Очень прочный.",
+  "novakidDescription" : "Очень прочный.",
+
+  "description" : "Стеллаж с гранатометом Гвардейца.",
+  "shortdescription" : "Настенный гранатомет",
+  "race" : "human",
+
+  "inventoryIcon" : "sglauncherrack.png",
+  "orientations" : [
+    {
+      "dualImage" : "sglauncherrack.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

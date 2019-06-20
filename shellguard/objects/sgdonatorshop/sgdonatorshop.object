@@ -1,0 +1,59 @@
+{
+  "objectName" : "sgdonatorshop",
+  "colonyTags" : ["outpost","commerce"],
+  "rarity" : "Common",
+  "category" : "Shop",
+  "description" : "Предметы, финансируемые сообществом.",
+  "shortdescription" : "Custom-Catch-All",
+  "race" : "generic",
+  "price" : 500,
+  "printable" : false,
+  "lightColor" : [46, 66, 77],
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Custom-Catch-All",
+        "subtitle" : "^#b9b5b2;Items funded by the commuinity."
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+	  { "item" : "sgreddye" },
+	  { "item" : "sgorangedye" },
+	  { "item" : "sgflatcap" },
+	  { "item" : "sgquartermaster" },
+	  { "item" : "sgspacehelmet" },
+	  { "item" : "sgbasicspacehelmet" },
+	  { "item" : "sgbangcorn" }
+    ]
+  },
+
+  "apexDescription" : "Спасибо всем, кто профинансировал это!",
+  "avianDescription" : "Спасибо всем тем, кто профинансировал это!",
+  "floranDescription" : "Ссспасибо всссем тем, кто профинансссировал это!",
+  "glitchDescription" : "Довольно. Спасибо всем, кто профинансировал это!",
+  "humanDescription" : "Спасибо всем тем, кто профинансировал это!",
+  "hylotlDescription" : "Спасибо всем тем, кто профинансировал это!",
+  "novakidDescription" : "Спасибо всем тем, кто профинансировал это!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "sgdonatorshop.png:<color>.<frame>", "fullbright" : true }, { "image" : "sgdonatorshoplit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      
+      "lightPosition" : [-1, 2],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 12,
+      "animationCycle" : 2.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/mechcrafting_loop.ogg"
+}

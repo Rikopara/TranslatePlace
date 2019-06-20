@@ -1,0 +1,33 @@
+{
+  "objectName" : "sghelmetdeco",
+  "colonyTags" : ["valuable","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Стильно, но не для чего не используется.",
+  "avianDescription" : "Стильно, но не для чего не используется.",
+  "floranDescription" : "Стильно, но не для чего не используется.",
+  "glitchDescription" : "Пораженно. Стильно, но не для чего не используется.",
+  "humanDescription" : "Стильно, но не для чего не используется.",
+  "hylotlDescription" : "Стильно, но не для чего не используется.",
+  "novakidDescription" : "Стильно, но не для чего не используется.",
+
+  "description" : "Не используемый шлем Гвардейца.",
+  "shortdescription" : "Декоративный шлем Гвардейца",
+  "race" : "human",
+
+  "inventoryIcon" : "sghelmetdeco.png",
+  "orientations" : [
+    {
+      "dualImage" : "sghelmetdeco.png:<color>",
+      "imagePosition" : [-5, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

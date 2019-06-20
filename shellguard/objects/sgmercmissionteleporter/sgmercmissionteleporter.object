@@ -1,0 +1,44 @@
+{
+  "objectName" : "sgmercmissionteleporter",
+  "objectType" : "teleporter",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "price" : 3000,
+  "rarity" : "Common",
+  "description" : "Этот телепорт должен отправить тебя на аванпост ШеллГвард!",
+  "shortdescription" : "ШеллГвард аванпост телепорт",
+  "race" : "ancient",
+
+  "apexDescription" : "Это вернет меня на аванпост ШеллГвард'а",
+  "avianDescription" : "Это вернет меня на аванпост ШеллГвард'а",
+  "floranDescription" : "Это вернет меня на аванпоссст ШеллГвард'а",
+  "glitchDescription" : "Убедительно. Это вернет меня на аванпост ШеллГвард'а",
+  "humanDescription" : "Это вернет меня на аванпост ШеллГвард'а",
+  "hylotlDescription" : "Это вернет меня на аванпост ШеллГвард'а",
+  "novakidDescription" : "Это вернет меня на аванпост ШеллГвард'а",
+
+  "category" : "teleporter",
+  "lightColor" : [56, 102, 124],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/returnsgbase.config",
+
+  "inventoryIcon" : "sgmercmissionteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "sgmercmissionteleporter.png:<color>", "fullbright" : true }, { "image" : "sgmercmissionteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [-0, 0], [1, 0] ]
+    }
+  ],
+  
+  "teleporterFootPosition" : [0, 1]
+
+}
