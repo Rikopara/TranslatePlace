@@ -1,13 +1,13 @@
 {
   "id" : "sgsurvivor1",
   "species" : "human",
-  "title" : "Subject: N2-512",
-  "description" : "Medical records of a high ranking Shellguard Soldier",
+  "title" : "Субъект: N2-512",
+  "description" : "Медицинская карта высокопоставленного солдата ШеллГвард",
   "icon" : "sgsurvivor1.png",
   "contentPages" : [
-    "Subject: N2-512, otherwise known as Ironwatch member [REDACTED], was the only survivor of squad N2-5. All other members squad of N2-5 are confirmed dead, killed in the destruction of earth. Subject N2-512 was inflicted with multiple blunt force trauma wounds, burns from intense friction damage, presumably from the Ruins tentacles and 236 seperate laceraciones.",
+    "Субъект: N2-512, известный как член Железной Стража [отредактирован], был единственным выжившим из отряда N2-5. Все остальные члены отряда N2-5 признаны погибшими при разрушении Земли. Субъект N2-512 получил множественные травмы, ожоги от сильного трения, предположительно от щупалец и 236 отдельных рваных ран.",
 
-"Subject: N2-512 was revived with intensive bio-mechanical treatments. Complete replacements of [REDACTED], [REDACTED] and [REDACTED]. Subject made a full physical recovery, but has yet to have his mental stabilty tested."
+"Субъект: N2-512, известный как член Железной Стража [отредактирован], был единственным выжившим из отряда N2-5. Все остальные члены отряда N2-5 признаны погибшими при разрушении Земли. Субъект N2-512 получил множественные травмы, ожоги от сильного трения, предположительно от щупалец и 236 отдельных рваных ран."
 
   ],
     "itemConfig" : {
